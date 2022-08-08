@@ -1,6 +1,42 @@
+/*Flex instructions*/
 body {
-    display: grid;
-    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background-color: blue;
+}
+
+.me {
+    display: flex;
+    background-color: darkblue;
+}
+
+.experience {
+    display: flex;
+    background-color: white;
+}
+
+.experiences {
+    display: flex;
+    background-color: white;
+}
+
+.rates {
+    display: flex;
+    background-color: gray;
+}
+
+.contactme {
+    display: flex;
+    background-color: white;
+}
+
+.footer {
+    display: flex;
+    background-color: darkblue;
 }
 
 /*Defaults*/

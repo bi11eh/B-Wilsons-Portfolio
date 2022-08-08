@@ -1,0 +1,20 @@
+body {
+    display: grid;
+    flex-direction: column;
+}
+
+/*Defaults*/
+
+ul {
+    /* this removes list bullets */
+    list-style-type: none;
+    /*margin: 0;
+    padding: 0;*/
+}
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    /*color: white;
+    font-size: 24px;*/
+}

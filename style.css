@@ -17,11 +17,27 @@ body {
 .experience {
     display: flex;
     background-color: white;
+    justify-content: center;
+    padding: 20px;
+    font-size: 28px;
 }
 
 .experiences {
     display: flex;
     background-color: white;
+    justify-content: center;
+    gap: 52px;
+}
+
+/*whole image + text in experiences*/
+.item {
+    max-width: 300px;
+}
+
+/*image rectangles in center*/
+img {
+    width: 100px;
+    height: 100px;
 }
 
 .rates {
@@ -38,6 +54,7 @@ body {
     display: flex;
     background-color: darkblue;
 }
+
 
 /*Defaults*/
 

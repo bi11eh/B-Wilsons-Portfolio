@@ -30,6 +30,7 @@ body {
     align-items: center;
 }
 
+
 ul {
     display: flex;
     margin: 0;
@@ -64,6 +65,7 @@ ul {
 
 .meheader {
     font-size: 48px;
+    font-weight: bold;
     color: #f9faf8;
 }
 
@@ -87,6 +89,7 @@ button {
     justify-content: center;
     padding: 20px;
     font-size: 28px;
+    font-weight: bold;
     color: #1f2937;
 }
 
@@ -96,6 +99,7 @@ button {
     justify-content: center;
     gap: 52px;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 /*whole image + text in experiences*/
@@ -111,8 +115,11 @@ img {
 
 .rates {
     display: flex;
-    background-color: #809020;
+    background-color: #E5E7EB;
     padding: 36px;
+    font-size: 18px;
+    color: #1f2937;
+    font-style: emphasis;
 }
 
 .contactme {
